@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Load clean data
-all_df = pd.read_csv("dashboard/all_data.csv")
+all_df = pd.read_csv("Dashboard/all_data.csv")
 
 # header
 st.header('Bike Sharing Dashboard')
